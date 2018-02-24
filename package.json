@@ -1,0 +1,26 @@
+{
+  "name": "es2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "iterable.js",
+  "scripts": {
+    "iterable": "nodemon --exec babel-node iterable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhentian-wan/es2018-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhentian-wan/es2018-demo/issues"
+  },
+  "homepage": "https://github.com/zhentian-wan/es2018-demo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-generator-functions": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.15.1"
+  }
+}
